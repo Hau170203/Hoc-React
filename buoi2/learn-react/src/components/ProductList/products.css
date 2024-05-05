@@ -1,0 +1,11 @@
+.product__List{
+    display: flex;
+    color: blue;
+}
+
+.product__List .product__item {
+    margin-right: 40px;
+}
+.product__List .product__item img {
+    width: 400px;
+}

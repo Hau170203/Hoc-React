@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+.Country {
+    background-color: antiquewhite;
+    border: 1px solid orange;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.Country__name{
+    background-color: yellow;
+}
+.Country__text {
+    display: block;
+    background: orange;
+    color: white;
+    padding: 6px 12px;
+}
+
+.Country__list {
+    padding: 0;
+    margin: 0;
+    background-color: white; 
+}
+.Country__list--item {
+    border: 1px solid orange;
+    border-bottom: none;
+    padding: 6px 10px;
+}
+.Country__list--item:last-child {
+    border-top: 0;
+}
