@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.tab {
+    margin-top: 10px;
+
+    &__Header {
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        background: #a7a7a7;
+        margin-bottom: 20px;
+    }
+
+    &__Products {
+        padding: 10px;
+        &:hover {
+            background: blue;
+            color: white;
+        }
+    }
+
+
+
+    &__User {
+        padding: 10px;
+
+        &:hover {
+            background: blue;
+            color: white;
+        }
+    }
+
+    &__Posts {
+        padding: 10px;
+        &:hover {
+            background: blue;
+            color: white;
+        }
+    }
+}
