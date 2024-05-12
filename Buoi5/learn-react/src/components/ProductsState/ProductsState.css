@@ -1,0 +1,23 @@
+.product__List {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100vw; */
+}
+
+.product__Item {
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.product__image{
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+.product__Title {
+    margin: 0;
+    padding: 0;
+}
+
