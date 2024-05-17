@@ -1,0 +1,42 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        margin: 10px 10px;
+        border: 1px solid #e0dcdc;
+    }
+    &__image {
+        width: 355px;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+    }
+    &__content {
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    &__title {
+        font-size: 17px;
+    }
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+
+    &__edit {
+        margin-right: 20px;
+    }
+    &__edit:hover {
+       background: blue;
+    }
+
+    &__delete:hover {
+        background: red;
+    }
+}
