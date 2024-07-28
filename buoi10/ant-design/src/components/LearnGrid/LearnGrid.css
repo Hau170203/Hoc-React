@@ -1,0 +1,13 @@
+.box {
+    background-color: orange;
+}
+
+.carousel {
+    background: orange;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousel__item {
+    padding: 50px 10px;
+}

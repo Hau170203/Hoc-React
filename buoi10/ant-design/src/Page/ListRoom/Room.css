@@ -1,0 +1,9 @@
+.ant-btn {
+    margin: 5px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-around;
+    
+}

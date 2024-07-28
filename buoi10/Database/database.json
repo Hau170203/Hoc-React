@@ -1,0 +1,101 @@
+{
+  "BookRoom": [
+    {
+      "BedType": "Giường đôi",
+      "Time": "12 Giờ",
+      "fullname": "Ngô Văn Hậu",
+      "address": "Hà Nội",
+      "phone": "0354485588",
+      "email": "thuypham203cute@gmail.com",
+      "services": [
+        "Đặt xe 5 chỗ",
+        "Đặt xe 7 chỗ"
+      ],
+      "Date": [
+        "23-07-2024",
+        "31-07-2024"
+      ],
+      "id": 1
+    },
+    {
+      "BedType": "Giường đôi",
+      "Time": "12 Giờ",
+      "fullname": "Lê Văn A",
+      "address": "Hà Nội",
+      "phone": "03439934",
+      "email": "Vanhau170203@gmail.com",
+      "services": [
+        "Đặt xe 5 chỗ",
+        "Đặt nhà hàng"
+      ],
+      "Date": [
+        "23-07-2024",
+        "31-07-2024"
+      ],
+      "id": 2
+    }
+  ],
+  "Room": [
+    {
+      "name": "Phong ABD",
+      "quantitybed": 3,
+      "quantitypeople": 6,
+      "utils": [
+        "Quạt hơi nước",
+        "Nóng lạnh"
+      ],
+      "status": true,
+      "id": 3
+    },
+    {
+      "name": "Phong ABE",
+      "quantitybed": 3,
+      "quantitypeople": 6,
+      "utils": [
+        "Quạt hơi nước",
+        "Nóng lạnh"
+      ],
+      "id": 4,
+      "status": true
+    },
+    {
+      "name": "Phòng CAC",
+      "quantitybed": 4,
+      "quantitypeople": 8,
+      "utils": [
+        "Điều hòa",
+        "Quạt hơi nước",
+        "Nóng lạnh"
+      ],
+      "status": true,
+      "typeroom": true,
+      "id": 5
+    },
+    {
+      "name": "Phòng CAB",
+      "quantitybed": 1,
+      "quantitypeople": 2,
+      "utils": [
+        "Điều hòa",
+        "Nóng lạnh",
+        "Quạt hơi nước"
+      ],
+      "typeroom": true,
+      "id": 6,
+      "status": true
+    },
+    {
+      "name": "Phòng tổng thống",
+      "quantitybed": 1,
+      "quantitypeople": 2,
+      "utils": [
+        "Điều hòa",
+        "Quạt hơi nước",
+        "Nóng lạnh"
+      ],
+      "status": true,
+      "typeroom": true,
+      "id": 7
+    }
+  ]
+}
