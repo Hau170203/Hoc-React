@@ -1,0 +1,13 @@
+.studied {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    & a{
+         color: blue;
+         
+         &:hover{
+            color: rgba(0, 0, 255, 0.525);
+         }
+    }
+}
