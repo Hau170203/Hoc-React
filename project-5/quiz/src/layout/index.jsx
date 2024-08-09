@@ -6,14 +6,12 @@ import { delAllCookie, getCookie } from '../Helpers/Cookie';
 import { useDispatch, useSelector } from "react-redux";
 import { ReloadHeader } from "../action/Reload";
 import { useEffect, useState } from "react";
-import { message} from 'antd';
 import { searchTopic } from "../Services/TopicService";
 
 
 export default function Layout() {
   const [search, setSearch] = useState();
   const [dataSearch, setDataSearch] = useState();
-  const [messageApi, contextHolder] = message.useMessage();
   const NavActive = (e) => {
     return e.isActive ? 'active' : '';
   }
@@ -51,20 +49,12 @@ export default function Layout() {
         setDataSearch(response);
       } else {
         setDataSearch('')
-        if (response.lengt < 0) {
-          messageApi.open({
-            type: 'error',
-            content: 'Không có đề thi này',
-            duration: 1
-          });
-        }
       }
     };
     callApi();
   }, [search])
   return (
     <>
-      {contextHolder}
       <div className="layout">
         <header className="layout__header">
           <div className="layout__left">
